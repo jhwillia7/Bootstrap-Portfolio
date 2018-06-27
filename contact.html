@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>John H Williams - Bootstrap</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/css/style.css" media="screen">
+    </head>
+    
+    <body>
+        <nav class="navbar navbar-light bg-light fixed-top navbar-expand-md">
+            <div class="container">
+                <button type="button" class="navbar-toggler collapsed" data-toggle="collapse"
+                data-target="#page-nav-collapse" aria-expanded="false"> <span class="sr-only">Toggle navigation</span>
+&#x2630;</button> <a class="navbar-brand"
+                href="index.html" id="logo">John H Williams</a>
+
+                <div class="collapse navbar-collapse" id="page-nav-collapse">
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item"> <a href="index.html" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item"> <a href="portfolio.html" class="nav-link">Portfolio</a>
+                        </li>
+                        <li class="nav-item"> <a href="contact.html" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <main class="container">
+            <section class="row">
+                <div class="col-lg-12">
+                    <form class="block ">
+                         <h1 class="block-header">Contact</h1>
+                        <hr>
+                        <div class="form-group">
+                            <label for="name" class="col-md-2 col-form-label">Name</label>
+                            <div class="col-md-10">
+                                <input type="email" class="form-control" id="name" placeholder="John Smith">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="col-md-2 col-form-label">Email</label>
+                            <div class="col-md-10">
+                                <input type="password" class="form-control" id="email" placeholder="John.Smith@gmail.com">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-2 col-form-label" for="msg">Message</label>
+                            <div class="col-md-10">
+                                <textarea id="msg" class="form-control" rows="3" placeholder="No particular message to no one in particular"></textarea>
+                            </div>
+                        </div>
+                        <button class="submit-btn">Submit</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="two-toned-footer-color"></div>
+            <p class="text-muted text-muted-footer text-center">&#xA9; Copyright 2018 John H Williams</p>
