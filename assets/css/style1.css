@@ -148,7 +148,7 @@ ul {
 
 
 .footer {
-    position: relative;
+    position: absolute !important;
     border: none;
     bottom: 0;
     width: 100% !important;
