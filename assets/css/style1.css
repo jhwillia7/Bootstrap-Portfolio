@@ -147,7 +147,7 @@ ul {
 }
 
 
-.footer {
+#footer {
     position: absolute !important;
     border: none;
     bottom: 0;
