@@ -50,6 +50,7 @@ main {
 }
 
 .navbar {
+    height: 60px;
     border: none;
     background-color: grey !important;
 }
